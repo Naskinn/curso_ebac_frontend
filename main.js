@@ -22,9 +22,6 @@ form.addEventListener('submit', function(e){
         qs('.success-message').innerHTML = mensagemSucesso;
         qs('.success-message').style.display = "block";
         qs('#form-hjs').reset();
-    }else{
-        campoB.classList.remove('error');
-        qs('.error-message').style.display = "block";
     }
 });
 
